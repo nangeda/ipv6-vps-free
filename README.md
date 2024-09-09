@@ -38,7 +38,34 @@ vps的ipv4代理上网，然后在通过ipv6将数据传回本地，便可实现
 # 第二部 部署SSR服务端
 服务端协议就不过多介绍，按照步骤走即可，感兴趣的小伙伴可自行了解
 
-```python print("Hello, World!") for i in range(5): print(i) ```
+首先使用ssh工具链接vps
+接下来关闭防火墙
+
+```# 查看防火墙状态命令：
+firewall-cmd --state
+# 停止firewall命令：
+systemctl stop firewalld.service
+# 禁止firewall开机启动命令：
+systemctl disable firewalld.service
+```
+
+这样就关闭了防火墙，否则从外网访问端口可能会失败
+
+脚本部署，直接执行命令即可
+
+```
+yum -y install wget
+
+wget -N — no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+```
+
+接下来进行部署
+```
+bash ssr.sh
+```
+建议全部按照默认，猛猛回车就完事儿了
+
+
 
 
 
