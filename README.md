@@ -63,7 +63,12 @@ wget -N — no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/d
 ```
 bash ssr.sh
 ```
-建议全部按照默认，猛猛回车就完事儿了
+选择1安装SSR，接下来建议全部按照默认，猛猛回车就完事儿了
+
+![image](https://github.com/user-attachments/assets/8e4f4533-87e5-4299-9e37-6c47591a733d)
+以上为演示图片，vps已注销
+
+# 3 windows系统下的链接
 
 
 
