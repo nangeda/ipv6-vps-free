@@ -17,4 +17,6 @@ vps的ipv4代理上网，然后在通过ipv6将数据传回本地，便可实现
 
 平台有很多常驻活动（但是我没找到）常驻活动有冲10刀送10刀，够用四个月
 注册完毕后开始购买服务器流程
+![2](https://github.com/user-attachments/assets/c6ae92d9-cec1-4cb4-9642-fb229aa946a0)
 
+![3](https://github.com/user-attachments/assets/9d911a99-e4c7-41ad-8f77-2ad550e204d6)
