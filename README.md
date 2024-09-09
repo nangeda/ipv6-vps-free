@@ -19,4 +19,19 @@ vps的ipv4代理上网，然后在通过ipv6将数据传回本地，便可实现
 注册完毕后开始购买服务器流程
 ![2](https://github.com/user-attachments/assets/c6ae92d9-cec1-4cb4-9642-fb229aa946a0)
 
+强烈推荐选择东京节点，延迟较低
+
 ![3](https://github.com/user-attachments/assets/9d911a99-e4c7-41ad-8f77-2ad550e204d6)
+
+系统 选择CentOS，方便后续脚本的部署
+![4](https://github.com/user-attachments/assets/041c9b9f-980a-4f45-89a1-6c121961557f)
+
+常规继续往下选
+
+![5](https://github.com/user-attachments/assets/6d34be8e-7b37-4ba4-8059-64a3566b7a98)
+
+取消自动备份
+![6](https://github.com/user-attachments/assets/fd685b1b-dfe8-4040-8712-1a47d7aca417)
+
+可以看到已经变成5刀一个月了，等待部署完毕就OK啦。
+
