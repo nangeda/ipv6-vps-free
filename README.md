@@ -10,7 +10,11 @@ vps的ipv4代理上网，然后在通过ipv6将数据传回本地，便可实现
 成本：一台日本的vps，10美元可用4个月，测试过4个人同时用是可以保证看视频不卡的。  大概5r/人/月。
 结果: 免费使用校园网and网络附带魔法
 
+![1](https://github.com/user-attachments/assets/dd5920cf-7a1e-4b95-babf-0ad0c21cf5aa)
 
+# 第一步 购买VPS
+推荐选能找到最便宜vps  [vurtl](https://www.vultr.com/?ref=9652363)
 
-
+平台有很多常驻活动（但是我没找到）常驻活动有冲10刀送10刀，够用四个月
+注册完毕后开始购买服务器流程
 
