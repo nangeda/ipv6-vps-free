@@ -1,4 +1,4 @@
-# ipv6-vps-free
+![image](https://github.com/user-attachments/assets/c8c60fb4-9793-488e-b31f-8307a21cef8a)# ipv6-vps-free
 如何通过ipv6实现校园网免流（速通版）
 
 学校校园网每个月只有免费的40g流量，超额部分购买居然要1元1g，how dare you！作为计算机专业的穷哥们要被气昏了，且网上一些教程有点落后，或者根本实现不了，遂结合网上的帖子以及自己的经验整理出个简单版。。。
@@ -69,6 +69,48 @@ bash ssr.sh
 以上为演示图片，vps已注销
 
 # 3 windows系统下的链接
+windows链接就要选一个支持ssr协议的代理软件，这里推荐使用clash verge（github可以找到）
+
+https://github.com/clash-verge-rev/clash-verge-rev/releases
+
+选择合适的版本
+![image](https://github.com/user-attachments/assets/0ad2429b-b2e8-43c2-a160-b3e1e5e3d615)
+
+安装后接下来将节点配置刀clash可使用的订阅链接，接下来导入
+
+**注意:ipv4地址要换成对应服务器的ipv6地址，否则可能失效！！！**
+
+由于ssr的订阅链接是使用base64来编码的，所以我们要选择一个解码工具来解析一下，再将ipv6地址替换掉原来的ipv6地址，
+我们选择如下工具(随便一个即可)
+
+https://base64.us/
+
+注意：要将复制链接的  ssr://  给删掉
+![image](https://github.com/user-attachments/assets/b1c4e246-9479-4baa-83cf-039fff0c1038)
+
+接下来替换ipv4地址，vps的v6地址可在控制台找到
+![image](https://github.com/user-attachments/assets/97138bf6-3232-4bbd-b640-0d74c697e11f)
+
+替换成如下，替换后复制链接  别忘了在我们需要的链接前加上 ssr:// 哦：
+![image](https://github.com/user-attachments/assets/230c6cb5-3bd0-4be2-a6bc-b828621cb44d)
+
+OK，你的节点已经顺利编码辣，接下来是时候转换为clash的订阅链接喽,还是使用现成的工具  建议直接Google，因为有时候有的解析网站服务器可能会挂掉:
+
+![image](https://github.com/user-attachments/assets/578b655c-d8c7-4e68-bc41-46fa7798e789)
+
+大功告成，接下来将你的订阅导入clash即可快乐上网啦
+
+**windows下的clash记得使用TUN模式而不是系统代理，这样他就会给我们电脑生成虚拟网卡，让本机所有的应用都能使用ipv6访问**
+**注意Tun模式和系统代理只能选一个，二者相互冲突**
+![image](https://github.com/user-attachments/assets/06ef8426-ffcf-4f92-bd99-5456d9c1d34c)
+
+ping一下测试网站，全部通过，完成使用
+
+
+
+
+
+
 
 
 
