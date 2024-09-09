@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c8c60fb4-9793-488e-b31f-8307a21cef8a)# ipv6-vps-free
+# ipv6-vps-free
 如何通过ipv6实现校园网免流（速通版）
 
 学校校园网每个月只有免费的40g流量，超额部分购买居然要1元1g，how dare you！作为计算机专业的穷哥们要被气昏了，且网上一些教程有点落后，或者根本实现不了，遂结合网上的帖子以及自己的经验整理出个简单版。。。
@@ -102,6 +102,10 @@ OK，你的节点已经顺利编码辣，接下来是时候转换为clash的订�
 
 **windows下的clash记得使用TUN模式而不是系统代理，这样他就会给我们电脑生成虚拟网卡，让本机所有的应用都能使用ipv6访问**
 **注意Tun模式和系统代理只能选一个，二者相互冲突**
+
+![image](https://github.com/user-attachments/assets/718206bb-63b7-4360-a809-2b8a059cd75f)
+
+
 ![image](https://github.com/user-attachments/assets/06ef8426-ffcf-4f92-bd99-5456d9c1d34c)
 
 ping一下测试网站，全部通过，完成使用
