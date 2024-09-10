@@ -12,8 +12,12 @@ vps的ipv4代理上网，然后在通过ipv6将数据传回本地，便可实现
 
 ![1](https://github.com/user-attachments/assets/dd5920cf-7a1e-4b95-babf-0ad0c21cf5aa)
 
+
+
 # 第一步 购买VPS
 推荐选能找到最便宜vps  [vurtl](https://www.vultr.com/?ref=9652363)
+
+充值的时候输入优惠码 充多少送多少（应该是常驻活动） VULTRMATCH  
 
 平台有很多常驻活动（但是我没找到）常驻活动有冲10刀送10刀，够用四个月
 注册完毕后开始购买服务器流程
